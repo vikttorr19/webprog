@@ -1,0 +1,12 @@
+var students = [
+{ name : "Alice", score : 50},
+{ name : "Bob", score : 73},
+{ name : "Charlie", score : 23}
+
+];
+
+console.log
+	students.reduce(total,current)=>{		
+		return total + current.score
+	},0)
+};
